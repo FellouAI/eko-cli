@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+const program = require('commander')
+
+const packageJson = require('../package.json')
+const init = require('../lib/init')
+
+program.version(packageJson.version)
+
+program
+  .command('init <name>')
+  .alias('i')
+  .description('akoai-cli')
+  .action((name) => {
+    init(name)
+  })
+
+program.parse(process.argv)
