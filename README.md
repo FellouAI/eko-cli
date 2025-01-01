@@ -1,13 +1,13 @@
-# ekoai-cli
+# eko-cli
 
 ## Install
 
 ```sh
-$ npm install ekoai-cli -g
+$ npm install @eko-ai/eko-cli -g
 ```
 
 ## Usage
 
 ```sh
-$ ekoai-cli init project-name
+$ eko-cli init project-name
 ```

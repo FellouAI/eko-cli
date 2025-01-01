@@ -1,16 +1,20 @@
 {
-  "name": "ekoai-cli",
+  "name": "@eko-ai/eko-cli",
   "version": "1.0.0",
-  "description": "ekoai browser extension init",
+  "description": "init: eko browser extension",
   "main": "index.js",
   "scripts": {
   },
   "bin": {
-    "ekoai-cli": "./bin/ekoai-cli"
+    "eko-cli": "./bin/eko-cli"
   },
   "keywords": [],
   "author": "fellou",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",

@@ -9,7 +9,7 @@ program.version(packageJson.version)
 program
   .command('init <name>')
   .alias('i')
-  .description('ekoai-cli')
+  .description('eko-cli')
   .action((name) => {
     init(name)
   })
